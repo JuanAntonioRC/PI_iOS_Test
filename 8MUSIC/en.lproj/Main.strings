@@ -1,0 +1,21 @@
+
+/* Class = "UIButton"; normalTitle = "Iniciar sesión"; ObjectID = "8DW-1e-ndT"; */
+"8DW-1e-ndT.normalTitle" = "Iniciar sesión";
+
+/* Class = "UILabel"; text = "8MUSIC"; ObjectID = "Kwy-8x-S2c"; */
+"Kwy-8x-S2c.text" = "8MUSIC";
+
+/* Class = "UIButton"; normalTitle = "Cancelar"; ObjectID = "OfM-m5-InD"; */
+"OfM-m5-InD.normalTitle" = "Cancelar";
+
+/* Class = "UIButton"; normalTitle = "Crear usuario"; ObjectID = "kSm-jK-0n4"; */
+"kSm-jK-0n4.normalTitle" = "Crear usuario";
+
+/* Class = "UILabel"; text = "Usuario"; ObjectID = "lnd-xj-Ucm"; */
+"lnd-xj-Ucm.text" = "Usuario";
+
+/* Class = "UILabel"; text = "Contraseña"; ObjectID = "qLB-tY-vjO"; */
+"qLB-tY-vjO.text" = "Contraseña";
+
+/* Class = "UIButton"; normalTitle = "Recuperar contraseña"; ObjectID = "y8V-Hd-J8p"; */
+"y8V-Hd-J8p.normalTitle" = "Recuperar contraseña";
