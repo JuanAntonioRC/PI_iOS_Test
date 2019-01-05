@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7091721C21E0AB3200DA9AD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7091721B21E0AB3200DA9AD9 /* ViewController.swift */; };
+		7091721F21E0AB9E00DA9AD9 /* mainMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7091721E21E0AB9E00DA9AD9 /* mainMenu.storyboard */; };
 		70A1943F21D2B19200226C67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A1943E21D2B19200226C67 /* AppDelegate.swift */; };
-		70A1944121D2B19200226C67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A1944021D2B19200226C67 /* ViewController.swift */; };
 		70A1944421D2B19200226C67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70A1944221D2B19200226C67 /* Main.storyboard */; };
 		70A1944621D2B19300226C67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70A1944521D2B19300226C67 /* Assets.xcassets */; };
 		70A1944921D2B19300226C67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70A1944721D2B19300226C67 /* LaunchScreen.storyboard */; };
 		70A1945421D2B19400226C67 /* _MUSICTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A1945321D2B19400226C67 /* _MUSICTests.swift */; };
 		70A1945F21D2B19400226C67 /* _MUSICUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A1945E21D2B19400226C67 /* _MUSICUITests.swift */; };
-		70B503A821D2F356004ABB3C /* iTunesArtwork@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 70B503A721D2F356004ABB3C /* iTunesArtwork@1x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7091721B21E0AB3200DA9AD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7091721E21E0AB9E00DA9AD9 /* mainMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = mainMenu.storyboard; sourceTree = "<group>"; };
 		70A1943B21D2B19200226C67 /* 8MUSIC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 8MUSIC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70A1943E21D2B19200226C67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		70A1944021D2B19200226C67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		70A1944321D2B19200226C67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		70A1944521D2B19300226C67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70A1944821D2B19300226C67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -48,7 +49,6 @@
 		70A1945A21D2B19400226C67 /* 8MUSICUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 8MUSICUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70A1945E21D2B19400226C67 /* _MUSICUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _MUSICUITests.swift; sourceTree = "<group>"; };
 		70A1946021D2B19400226C67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		70B503A721D2F356004ABB3C /* iTunesArtwork@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iTunesArtwork@1x.png"; path = "../../../../Downloads/Desktop/ios/iTunesArtwork@1x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,11 +99,11 @@
 		70A1943D21D2B19200226C67 /* 8MUSIC */ = {
 			isa = PBXGroup;
 			children = (
-				70B503A721D2F356004ABB3C /* iTunesArtwork@1x.png */,
 				70A1943E21D2B19200226C67 /* AppDelegate.swift */,
-				70A1944021D2B19200226C67 /* ViewController.swift */,
 				70A1944221D2B19200226C67 /* Main.storyboard */,
 				70A1944521D2B19300226C67 /* Assets.xcassets */,
+				7091721E21E0AB9E00DA9AD9 /* mainMenu.storyboard */,
+				7091721B21E0AB3200DA9AD9 /* ViewController.swift */,
 				70A1944721D2B19300226C67 /* LaunchScreen.storyboard */,
 				70A1944A21D2B19300226C67 /* Info.plist */,
 			);
@@ -232,9 +232,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7091721F21E0AB9E00DA9AD9 /* mainMenu.storyboard in Resources */,
 				70A1944921D2B19300226C67 /* LaunchScreen.storyboard in Resources */,
 				70A1944621D2B19300226C67 /* Assets.xcassets in Resources */,
-				70B503A821D2F356004ABB3C /* iTunesArtwork@1x.png in Resources */,
 				70A1944421D2B19200226C67 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,7 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70A1944121D2B19200226C67 /* ViewController.swift in Sources */,
+				7091721C21E0AB3200DA9AD9 /* ViewController.swift in Sources */,
 				70A1943F21D2B19200226C67 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
