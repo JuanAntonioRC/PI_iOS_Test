@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7091721C21E0AB3200DA9AD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7091721B21E0AB3200DA9AD9 /* ViewController.swift */; };
 		7091721F21E0AB9E00DA9AD9 /* mainMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7091721E21E0AB9E00DA9AD9 /* mainMenu.storyboard */; };
+		7091722321E0B57C00DA9AD9 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7091722121E0B57C00DA9AD9 /* SWRevealViewController.m */; };
 		70A1943F21D2B19200226C67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A1943E21D2B19200226C67 /* AppDelegate.swift */; };
 		70A1944421D2B19200226C67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70A1944221D2B19200226C67 /* Main.storyboard */; };
 		70A1944621D2B19300226C67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70A1944521D2B19300226C67 /* Assets.xcassets */; };
@@ -37,6 +38,9 @@
 /* Begin PBXFileReference section */
 		7091721B21E0AB3200DA9AD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7091721E21E0AB9E00DA9AD9 /* mainMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = mainMenu.storyboard; sourceTree = "<group>"; };
+		7091722021E0B57B00DA9AD9 /* 8MUSIC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "8MUSIC-Bridging-Header.h"; sourceTree = "<group>"; };
+		7091722121E0B57C00DA9AD9 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		7091722221E0B57C00DA9AD9 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		70A1943B21D2B19200226C67 /* 8MUSIC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 8MUSIC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70A1943E21D2B19200226C67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70A1944321D2B19200226C67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -106,6 +110,9 @@
 				7091721B21E0AB3200DA9AD9 /* ViewController.swift */,
 				70A1944721D2B19300226C67 /* LaunchScreen.storyboard */,
 				70A1944A21D2B19300226C67 /* Info.plist */,
+				7091722221E0B57C00DA9AD9 /* SWRevealViewController.h */,
+				7091722121E0B57C00DA9AD9 /* SWRevealViewController.m */,
+				7091722021E0B57B00DA9AD9 /* 8MUSIC-Bridging-Header.h */,
 			);
 			path = 8MUSIC;
 			sourceTree = "<group>";
@@ -196,6 +203,7 @@
 				TargetAttributes = {
 					70A1943A21D2B19200226C67 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					70A1944E21D2B19400226C67 = {
 						CreatedOnToolsVersion = 10.1;
@@ -262,6 +270,7 @@
 			files = (
 				7091721C21E0AB3200DA9AD9 /* ViewController.swift in Sources */,
 				70A1943F21D2B19200226C67 /* AppDelegate.swift in Sources */,
+				7091722321E0B57C00DA9AD9 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +445,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 84ATUGMHJX;
 				INFOPLIST_FILE = 8MUSIC/Info.plist;
@@ -445,6 +455,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "es.studium.-MUSIC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "8MUSIC/8MUSIC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -454,6 +466,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 84ATUGMHJX;
 				INFOPLIST_FILE = 8MUSIC/Info.plist;
@@ -463,6 +476,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "es.studium.-MUSIC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "8MUSIC/8MUSIC-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
